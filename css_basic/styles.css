@@ -1,0 +1,49 @@
+/* Apply Flexbox to the container elements */
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Apply Flexbox to the main element */
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+/* Style for header and footer */
+header,
+footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style for article and aside */
+article {
+  flex: 2;
+  overflow-y: auto;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+  background-color: #e9e9e9;
+}
+
+/* Ensure full height for the main content area */
+main {
+  flex: 1;
+}
+
+/* Example padding and margin reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
