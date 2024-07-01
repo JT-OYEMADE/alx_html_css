@@ -1,49 +1,80 @@
-/* Apply Flexbox to the container elements */
+/* General Styles */
 body {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
+  font-family: Arial, sans-serif;
   margin: 0;
+  padding: 0;
 }
 
-/* Apply Flexbox to the main element */
-main {
-  display: flex;
-  flex-direction: row;
-  flex: auto;
-}
-
-/* Style for header and footer */
+/* Header and Footer Styles */
 header,
 footer {
-  background-color: #f1f1f1;
-  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
   text-align: center;
 }
 
-/* Style for article and aside */
+/* Main Content Area Styles */
+main {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* Article and Aside Styles */
 article {
-  flex: 2;
-  overflow-y: auto;
-  padding: 10px;
-  background-color: #ffffff;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-right: 10px;
 }
 
 aside {
-  flex: 1;
-  overflow-y: auto;
-  padding: 10px;
-  background-color: #e9e9e9;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
 }
 
-/* Ensure full height for the main content area */
-main {
-  flex: 1;
+/* Logo Styles */
+.logo {
+  font-size: 30px;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
-/* Example padding and margin reset */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+/* Specific Styles Within Article */
+article p {
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Example of Customizing Article */
+article h2 {
+  color: #0073e6;
+  border-bottom: 2px solid #0073e6;
+  padding-bottom: 5px;
+}
+
+article ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+article ul li {
+  margin-bottom: 10px;
+}
+
+/* Example of Customizing Aside */
+aside h2 {
+  color: #e60073;
+  border-bottom: 2px solid #e60073;
+  padding-bottom: 5px;
+}
+
+aside ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+aside ul li {
+  margin-bottom: 10px;
 }
