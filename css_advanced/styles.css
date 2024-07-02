@@ -127,3 +127,46 @@ body {
   text-align: center;
 
 }
+
+/* Testimonials Section */
+.testimonials-section {
+  background-color: #B279D8;
+  /* Adjust based on the exact color in Figma */
+  text-align: left;
+  padding: 80px 250px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 53px;
+  align-items: center;
+}
+
+.testimonials-text {
+  width: 730px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.testimonials-section .testimonial-img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.testimonials-section .testimonials-p-1 {
+  /* font-size: 1.2em; */
+  /* line-height: 1.5; */
+  padding-bottom: 16px;
+}
+
+.testimonials-section .testimonials-p-2 {
+  /* font-size: 1.2em; */
+  line-height: 1.5;
+}
+
+.testimonials-section p strong {
+  display: block;
+  /* margin-top: 10px; */
+  /* font-size: 1.1em; */
+  font-weight: bold;
+}
