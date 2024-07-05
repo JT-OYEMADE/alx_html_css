@@ -263,3 +263,138 @@ body {
   font-size: 0.9em;
   color: #999;
 }
+
+/* Membership Section */
+.membership-section {
+  background-color: #101820;
+  /* Dark background color */
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.membership-section h5 {
+  font-size: 2em;
+  margin-bottom: 40px;
+  color: #C271FF;
+}
+
+.membership-section .highlight {
+  color: #fff;
+  font-weight: 300;
+}
+
+.membership-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.membership-card {
+  border-radius: 10px;
+  padding: 20px;
+  width: 220px;
+  text-align: center;
+}
+
+.membership-card img {
+  margin-bottom: 20px;
+}
+
+.membership-card h6 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.membership-card p {
+  font-size: 0.9em;
+}
+
+.register-btn {
+  background-color: #7F3AF2;
+  /* Purple color */
+  color: white;
+  padding: 15px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+/* FAQ Section */
+.faq-section {
+  background-color: #f8f8f8;
+  /* Light background color */
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.faq-section h2 {
+  font-size: 16px;
+  margin-bottom: 40px;
+  color: #071629;
+}
+
+.faq-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px;
+  gap: 0 220px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.faq-card {
+  padding: 20px 40px;
+  width: auto !important;
+  text-align: left;
+}
+
+.faq-card h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.faq-card p {
+  font-size: 0.9em;
+  color: #333;
+}
+
+/* Footer */
+.footer {
+  background-color: #101820;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 70px 150px;
+}
+
+.footer-logo {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.social-links a img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer p {
+  font-size: 0.8em;
+  color: #fff;
+  margin-bottom: 39px;
+}
