@@ -170,3 +170,96 @@ body {
   /* font-size: 1.1em; */
   font-weight: bold;
 }
+
+/* Popular Tutorials Section */
+.popular-tutorials-section {
+  text-align: center;
+  padding: 50px 20px;
+  max-width: 1228px;
+  margin: 0 auto;
+}
+
+.popular-tutorials-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+}
+
+.popular-tutorials-section .highlight {
+  color: #B279D8;
+  /* Adjust based on the exact color in Figma */
+}
+
+.tutorial-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tutorial-card {
+  background: #fff;
+  border-radius: 5px 0 10px 0;
+  padding: 20px;
+  width: 220px;
+  text-align: left;
+}
+
+.tutorial-card .video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  margin-bottom: 15px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.tutorial-card .video-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tutorial-card .play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+.tutorial-card h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.tutorial-card p {
+  margin: 5px 0;
+}
+
+.tutorial-card .card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.tutorial-card .card-footer .rating-time {
+  display: flex;
+  align-items: center;
+}
+
+.tutorial-card .card-footer img {
+  width: 80px;
+  margin-right: 5px;
+}
+
+.tutorial-card .card-footer span {
+  font-size: 0.9em;
+  color: #999;
+}
