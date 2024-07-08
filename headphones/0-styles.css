@@ -29,6 +29,10 @@ header .container {
   justify-content: space-between;
   align-items: center;
 }
+header .container nav .menu-icon,
+header .container nav .menu-toggle {
+  display: none;
+}
 
 header nav ul {
   display: flex;
