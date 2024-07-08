@@ -86,3 +86,120 @@ header img {
 .hero .hero-p {
   font-size: 1rem;
 }
+@media (max-width: 768px) {
+
+  header .container,
+  footer .container {
+    flex-direction: column;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav ul li {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .features .feature,
+  .stats .stat {
+    width: 45%;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  header .header-img {
+    display: block !important;
+  }
+
+  header .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+  header .container nav .menu-x {
+    font-size: 40px;
+  }
+
+
+  header .container nav .menu-icon,
+  header .container nav .menu-toggle,
+  header .container nav .menu-icon img {
+    display: flex !important;
+    justify-content: center !important;
+    position: absolute;
+    left: 15px;
+    top: 0;
+    margin-top: 15px;
+  }
+
+  header .container nav .menu-toggle {
+    margin-top: 29px;
+    width: 50px;
+    visibility: hidden;
+  }
+
+  header .container nav .menu-x,
+  header nav ul {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header .container nav .menu-toggle:checked~ul {
+    display: flex;
+  }
+
+  header img {
+    display: none;
+  }
+
+  header nav .mobile-menu img {
+    display: flex;
+  }
+
+  header nav .mobile-menu ul {
+    display: flex;
+    list-style: none;
+  }
+
+
+  .hero {
+    width: 100%;
+    padding: 2rem 1rem;
+    margin-bottom: 60px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+    margin-top: 200px;
+  }
+
+  .hero .hero-p {
+    width: 100%;
+  }
+
+  .hero p {
+    font-size: 1rem;
+    width: 267px;
+    margin: 0 auto;
+
+  }
+
+  .hero .cta {
+    margin-top: 20px;
+    margin-bottom: 2rem;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
