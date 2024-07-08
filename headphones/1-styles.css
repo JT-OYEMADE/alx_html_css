@@ -175,14 +175,47 @@ header img {
     padding-right: 25px;
   }
 
+  header .header-img {
+    display: block !important;
+  }
+
   header .container {
     flex-direction: column;
     text-align: center;
   }
 
+
+  header .container nav .menu-x {
+    font-size: 40px;
+  }
+
+
+  header .container nav .menu-icon,
+  header .container nav .menu-toggle,
+  header .container nav .menu-icon img {
+    display: flex !important;
+    justify-content: center !important;
+    position: absolute;
+    left: 15px;
+    top: 0;
+    margin-top: 15px;
+  }
+
+  header .container nav .menu-toggle {
+    margin-top: 29px;
+    width: 50px;
+    visibility: hidden;
+  }
+
+  header .container nav .menu-x,
   header nav ul {
     display: none;
-    list-style: none;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header .container nav .menu-toggle:checked~ul {
+    display: flex;
   }
 
   header img {
@@ -232,4 +265,9 @@ header img {
   .stats .stats-text {
     width: 100%;
   }
-}
+
+  .features .feature,
+  .stats .stat {
+    width: 100%;
+    margin: 1rem 0;
+  }
